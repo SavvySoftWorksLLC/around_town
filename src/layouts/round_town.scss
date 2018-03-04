@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+$savvy: #458CC2;
+$light-text: #FEFEFE;
+$main-color: #8F57EB;
+$yellow: #FFC000;
+
+body {
+  font-family: 'Montserrat', 'san-serif';
+  font-size: 1.25em;
+}
+
+.bang {
+  background-color: $light-text;
+  color: $main-color;
+  .bang--headline {
+    position: relative;
+    height: 100%;
+    .bang--headline-inner {
+      // width: 50%;
+      height: 50%;
+      overflow: auto;
+      margin: auto;
+      position: absolute;
+      top: 0; left: 0; bottom: 0; right: 0;
+    }
+    // margin-top: 2em;
+  }
+}
+
+.about {
+  padding: 2em 0;
+  background-color: $main-color;
+  color: $light-text;
+  .about--question { font-style: italic; }
+  .about--answer { margin-left: 1em; }
+}
+
+.contact {
+  .contact--header { text-align: center; }
+  #submit {
+    border-radius: 8px;
+    background-color: $main-color;
+    color: $light-text;
+    &:hover {
+      background-color: $light-text;
+      color: $main-color;
+    }
+  }
+  background-color: $yellow;
+  color: $light-text;
+  input { margin: 8px; }
+  padding: 2em 0;
+}
+
+.footer {
+  .footer--savvy-logo { max-width: 240px; }
+  padding: 2em 0;
+  text-align: center;
+  color: $savvy;
+}
+
+@media (max-width: 667px) {
+  .bang .bang--headline .bang--headline-inner {
+    overflow: visible;
+    position: relative;
+    text-align: center;
+    padding-top: 8px;
+  }
+}
