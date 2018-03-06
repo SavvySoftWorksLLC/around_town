@@ -47,7 +47,7 @@ body {
       color: $main-color;
     }
   }
-  background-color: $yellow;
+  background-color: lighten($main-color, 20%);
   color: $light-text;
   input { margin: 8px; }
   padding: 2em 0;

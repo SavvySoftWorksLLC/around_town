@@ -12,9 +12,9 @@ const Contact = () => (
       <div className="row">
         <div className="col-md-4 hide-sm-down"></div>
         <form className="serializableForm col-md-4 col-sm-12" method="post" action="https://remailer.savvysoftworks.com">
-          <input type="hidden" name="public_token" value="" />
-          <input type="hidden" name="after_success" value=""/>
-          <input type="hidden" name="after_failure" value=""/>
+          <input type="hidden" name="public_token" value="9753D5B60BEE141DC85F801B7CD22A2CC79F17ECBE5EF09973BB5612FD8C59C4" />
+          <input type="hidden" name="after_success" value="aroundtown.io"/>
+          <input type="hidden" name="after_failure" value="aroundtown.io"/>
 
           <div className="row">
             <div className="col-sm-12">

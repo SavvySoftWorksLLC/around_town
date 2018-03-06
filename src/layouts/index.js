@@ -13,7 +13,7 @@ import './round_town.scss'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="ROUND TOWN"
+      title="AROUND TOWN"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
